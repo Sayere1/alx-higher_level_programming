@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def print_last_digit(x):
     if x > 0:
         print (x % 10, end="")
