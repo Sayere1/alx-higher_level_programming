@@ -2,6 +2,7 @@
 '''
 Return: 0 or none
 '''
+
 def multiple_returns(sentence):
     if sentence == "":
         return (0, None)
