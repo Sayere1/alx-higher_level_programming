@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-# simple del
-# Args: Dict , return new dict
-
-def simple_delete(a_dictionary, key=""):
-    if key in a_dictionary:
-        del a_dictionary[key]
-    return (a_dictionary
+def update_dictionary(a_dictionary, key, value):
+    a_dictionary[key] = value
+    return a_dictionary
