@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Defines a JSON file-reading function."""
+"""function that defines a JSON file-reading.
+args:
+    filename: file
+    """
 import json
 
 
