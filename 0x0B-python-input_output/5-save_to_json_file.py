@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Defines a JSON file-writing function."""
+"""function that defines a JSON file-writing.
+arg: my_obj: python obj
+file: file name
+"""
 import json
 
 
