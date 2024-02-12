@@ -1,6 +1,5 @@
 #!/usr/bin/node
-/*script that prints My number: <first argument converted in integer>
- * if the first argument can be converted to an integer*/
+// script that prints My number: <first argument converted in integer>
 if (isNaN(process.argv[2]) || process.argv[2] === undefined) {
   console.log('Not a number');
 } else {
