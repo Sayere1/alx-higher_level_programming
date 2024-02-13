@@ -1,5 +1,4 @@
 !/usr/bin/node
-// function that returns the version of a list
 exports.esrever = function (list) {
   let len = list.length - 1;
   let i = 0;
