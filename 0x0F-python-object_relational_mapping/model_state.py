@@ -9,9 +9,9 @@ ourmetadata = MetaData()
 Base = declarative_base(metadata=ourmetadata)
 
 class State(Base):
-    """
-    Class with id and name attributes representing each state
-    """
+"""
+Class with id and name attributes representing each state
+"""
     __tablename__ = 'states'
     id = Column(Integer, unique=True, nullable=False, primary_key=True)
     name = Column(String(128), nullable=False)
