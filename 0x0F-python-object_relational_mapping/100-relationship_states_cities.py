@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-Creates the State "California" with the City "San Francisco" from a DB
+script that creates the State “California” with the
+City “San Francisco” from the database hbtn_0e_100_usa
+You must use the module SQLAlchemy
 """
 import sys
 from relationship_state import Base, State
@@ -21,7 +23,6 @@ if __name__ == '__main__':
     newState = State(name='California')
     newCity = City(name='San Francisco')
     newState.cities.append(newCity)
-
     session.add(newState)
     session.add(newCity)
     session.commit()
